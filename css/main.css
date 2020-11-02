@@ -1,22 +1,264 @@
-
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  outline: none;
+  color: inherit;
+}
 
+html {
+  font-size: 16px;
+}
 
+.navbar {
+  background-color: transparent;
+}
 
+.navbar-brand > img {
+  height: 2.5rem;
+}
 
+.nav-menu-btn {
+  background-color: transparent;
+}
 
+.nav-menu-btn > i {
+  font-size: 2.1rem;
+  cursor: pointer;
+}
 
+.modal-content,
+.modal-dialog {
+  height: 100vh;
+  width: 100%;
+}
 
+.header {
+  background-image: url("../assests/img/banner_imghome.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 190vh;
+}
 
+.main-heading {
+  font-size: 4rem;
+  line-height: 50px;
+}
 
+.main-heading > small {
+  font-size: 1.4rem;
+}
 
+.main-heading > span {
+  font-size: 32px;
+}
 
+.description {
+  font-size: 1.3rem;
+  line-height: 33px;
+  width: 90%;
+}
 
+.header > button {
+  padding: 10px 25px;
+  border-radius: 3px;
+  font-size: 1.2rem;
+  box-shadow: 0px 17px 36px -16px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
 
+.header > ul {
+  width: 85%;
+}
 
+.header > ul > li > img {
+  height: 4.2rem;
+}
 
+.footer {
+  background-color: #0a58a8;
+}
 
+.footer > ul > li > a {
+  padding: 10px 15px;
+  background-color: #337ab7;
+  border-radius: 100%;
+}
+
+.footer > ul > li > a > i {
+  font-size: 1.3rem;
+}
+
+.footer-copyright-text {
+  color: #73ace7;
+  font-size: 13px;
+  line-height: 23px;
+}
+
+@media (min-width: 768px) {
+  .header {
+    height: 170vh;
+  }
+
+  .main-heading {
+    font-size: 8rem;
+    line-height: 90px;
+  }
+
+  .main-heading > small {
+    font-size: 3rem;
+  }
+
+  .main-heading > span {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 1.7rem;
+    line-height: 40px;
+  }
+
+  .header > button {
+    padding: 15px 90px;
+    font-size: 1.5rem;
+  }
+
+  .header > ul {
+    width: 95%;
+  }
+
+  .header > ul > li > img {
+    height: 3.7rem;
+  }
+
+  .footer > ul {
+    width: 43%;
+  }
+}
+
+@media (min-width: 950px) {
+  .navbar-brand > img {
+    height: 4rem;
+  }
+
+  .nav-menu-btn > i {
+    font-size: 3.3rem;
+  }
+
+  .header {
+    height: 170vh;
+  }
+
+  .main-heading {
+    font-size: 11rem;
+    line-height: 120px;
+  }
+
+  .main-heading > small {
+    font-size: 4rem;
+  }
+
+  .main-heading > span {
+    font-size: 60px;
+  }
+
+  .description {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+
+  .header > button {
+    padding: 15px 90px;
+    font-size: 1.5rem;
+  }
+
+  .header > ul {
+    width: 85%;
+  }
+
+  .header > ul > li > img {
+    height: 4.5rem;
+  }
+
+  .footer > ul {
+    width: 43%;
+  }
+
+  .footer > ul > li > a {
+    padding: 15px 20px;
+  }
+
+  .footer > ul > li > a > i {
+    font-size: 1.8rem;
+  }
+
+  .footer-copyright-text {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1100px) {
+  .navbar-brand > img {
+    height: 4rem;
+  }
+
+  .nav-menu-btn > i {
+    font-size: 3.3rem;
+  }
+
+  .header {
+    height: 150vh;
+  }
+
+  .main-heading {
+    font-size: 15rem;
+    line-height: 130px;
+  }
+
+  .main-heading > small {
+    font-size: 4rem;
+  }
+
+  .main-heading > span {
+    font-size: 80px;
+  }
+
+  .description {
+    font-size: 2rem;
+    line-height: 45px;
+  }
+
+  .header > button {
+    padding: 15px 90px;
+    font-size: 1.5rem;
+  }
+
+  .header > ul {
+    width: 70%;
+  }
+
+  .header > ul > li > img {
+    height: 5.5rem;
+  }
+
+  .footer > ul {
+    width: 43%;
+  }
+
+  .footer > ul > li > a {
+    padding: 20px 27px;
+  }
+
+  .footer > ul > li > a > i {
+    font-size: 1.8rem;
+  }
+
+  .footer-copyright-text {
+    font-size: 1.3rem;
+  }
+}
