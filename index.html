@@ -1,143 +1,149 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
 
-    <!-- Bootstrap CSS -->
-    <link
-      rel="stylesheet"
-      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
 
-    <title>Jaal | WebXMob cloud technologies</title>
-    <link rel="stylesheet" href="./css/main.css" />
-    <script
-      src="https://kit.fontawesome.com/1ba2cf90f3.js"
-      crossorigin="anonymous"
-    ></script>
-  </head>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
 
-  <body>
-    <nav
-      class="navbar min-vw-100 d-flex align-items-center justify-content-between fixed-top"
-    >
-      <a class="navbar-brand">
-        <img
-          src="./assests/img/vinove-logo-white.png"
-          alt="logo not found"
-          class="img-fluid"
-        />
-      </a>
-      <button class="nav-menu-btn border-0">
-        <i class="fas fa-bars text-white"></i>
-      </button>
-    </nav>
+  <title>Jaal | WebXMob cloud technologies</title>
+  <link rel="stylesheet" href="./css/main.css" />
+  <script src="https://kit.fontawesome.com/1ba2cf90f3.js" crossorigin="anonymous"></script>
+</head>
 
-    <header
-      class="header d-flex flex-column align-items-center justify-content-around"
-    >
-      <h1 class="container pt-2 main-heading text-center text-light mt-5">
-        <small>An enterprise committed to</small>
-        innovative
-        <span>products &amp; services</span>
-      </h1>
-      <p class="description text-center text-white">
-        Vinove Software and Services is a high spirited IT services company
-        enterprising to offer distinctive web services and solutions to its
-        global clientèle.
-      </p>
-      <button
-        class="border-0 bg-light text-dark text-uppercase"
-      >
-        Know more
-      </button>
-      <ul
-        class="d-flex flex-wrap align-items-center justify-content-around"
-      >
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award1.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award2.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award3.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award4.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award5.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award6.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award7.png" alt="img no found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award8.png" alt="img not found" />
-        </li>
-        <li class="m-2 m-lg-0">
-          <img src="./assests/img/award9.png" alt="img not found" />
-        </li>
-      </ul>
-    </header>
-
-    <footer class="footer">
-      <ul
-        class="container pt-4 d-flex align-items-center justify-content-around"
-      >
+<body>
+  <nav class="navbar min-vw-100 d-flex align-items-center justify-content-between fixed-top">
+    <a class="navbar-brand">
+      <img src="./assests/img/vinove-logo-white.png" alt="logo not found" class="img-fluid" />
+    </a>
+    <button class="nav-menu-btn border-0" onclick="navMenuOpen()">
+      <i class="fas fa-bars text-white"></i>
+    </button>
+    <div class="nav-menu d-flex align-items-center justify-content-center">
+      <nav class="navbar min-vw-100 d-flex align-items-center justify-content-between fixed-top">
+        <a class="navbar-brand">
+          <img src="./assests/img/vinove-logo-white.png" alt="logo not found" class="img-fluid" />
+        </a>
+        <button class="nav-menu-btn border-0" onclick="navMenuClose()">
+          <i class="fas fa-times text-white"></i>
+        </button>
+      </nav>
+      <ul class="mt-5 text-center d-flex flex-column align-items-center justify-content-around">
         <li>
-          <a href="" class="d-flex align-items-center justify-content-around">
-            <i class="fab fa-facebook-f"></i>
+          <a href="#home" class="text-white">
+            HOME
           </a>
         </li>
         <li>
-          <a href="" class="d-flex align-items-center justify-content-around">
-            <i class="fab fa-twitter"></i>
+          <a href="#about_us" class="text-white">
+            ABOUT US
           </a>
         </li>
         <li>
-          <a href="" class="d-flex align-items-center justify-content-around"
-            ><i class="fab fa-linkedin-in"></i
-          ></a>
+          <a href="#careers" class="text-white">
+            CAREERS
+          </a>
+        </li>
+        <li>
+          <a href="blog" class="text-white">
+            BLOG
+          </a>
+        </li>
+        <li>
+          <a href="#contact" class="text-white">
+            CONTACT US
+          </a>
         </li>
       </ul>
-      <h6
-        class="container footer-copyright-text pt-2 pb-3 pb-xl-4 pt-xl-4 text-center"
-      >
-        Copyright &copy;
-        <script>
-          document.write(new Date().getFullYear());
-        </script>
-        Vinove Software &amp; Services (P) Ltd. All Rights Reserved.
-      </h6>
-    </footer>
+    </div>
+  </nav>
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script
-      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+  <header class="header d-flex flex-column align-items-center justify-content-around">
+    <h1 class="container pt-2 main-heading text-center text-light mt-5">
+      <small>An enterprise committed to</small>
+      innovative
+      <span>products &amp; services</span>
+    </h1>
+    <p class="description text-center text-white">
+      Vinove Software and Services is a high spirited IT services company
+      enterprising to offer distinctive web services and solutions to its
+      global clientèle.
+    </p>
+    <button class="border-0 bg-light text-dark text-uppercase">
+      Know more
+    </button>
+    <ul class="d-flex flex-wrap align-items-center justify-content-around">
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award1.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award2.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award3.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award4.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award5.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award6.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award7.png" alt="img no found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award8.png" alt="img not found" />
+      </li>
+      <li class="m-2 m-lg-0">
+        <img src="./assests/img/award9.png" alt="img not found" />
+      </li>
+    </ul>
+  </header>
+
+  <footer class="footer">
+    <ul class="container pt-4 d-flex align-items-center justify-content-around">
+      <li>
+        <a href="" class="d-flex align-items-center justify-content-around">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="d-flex align-items-center justify-content-around">
+          <i class="fab fa-twitter"></i>
+        </a>
+      </li>
+      <li>
+        <a href="" class="d-flex align-items-center justify-content-around"><i class="fab fa-linkedin-in"></i></a>
+      </li>
+    </ul>
+    <h6 class="container footer-copyright-text pt-2 pb-3 pb-xl-4 pt-xl-4 text-center">
+      Copyright &copy;
+      <script>
+        document.write(new Date().getFullYear());
+      </script>
+      Vinove Software &amp; Services (P) Ltd. All Rights Reserved.
+    </h6>
+  </footer>
+
+  <!-- Optional JavaScript -->
+  <script src="./js/main.js"></script>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
