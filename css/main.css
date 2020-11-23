@@ -59,19 +59,21 @@ html {
 }
 
 .header {
-  background-image: url("../assests/img/banner_imghome.jpg");
+  background-image: url('../assests/img/banner_imghome.jpg');
   background-size: cover;
   background-position: center;
-  height: 190vh;
+  height: 150vh;
 }
 
-.main-heading {
+.main-heading > span:nth-child(1) {
   font-size: 4rem;
-  line-height: 50px;
+  line-height: 70px;
+  text-transform: uppercase;
 }
 
-.main-heading > span {
+.main-heading > span:nth-last-child(1) {
   font-size: 32px;
+  text-transform: capitalize;
 }
 
 .description {
@@ -123,19 +125,15 @@ html {
   }
 
   .header {
-    height: 170vh;
+    height: 150vh;
   }
 
-  .main-heading {
-    font-size: 8rem;
-    line-height: 90px;
+  .main-heading > span:nth-child(1) {
+    font-size: 9rem;
+    line-height: 150px;
   }
 
-  .main-heading > small {
-    font-size: 3rem;
-  }
-
-  .main-heading > span {
+  .main-heading > span:nth-last-child(1) {
     font-size: 60px;
   }
 
@@ -179,16 +177,12 @@ html {
     height: 170vh;
   }
 
-  .main-heading {
+  .main-heading > span:nth-child(1) {
     font-size: 11rem;
-    line-height: 120px;
+    line-height: 170px;
   }
 
-  .main-heading > small {
-    font-size: 4rem;
-  }
-
-  .main-heading > span {
+  .main-heading > span:nth-last-child(1) {
     font-size: 60px;
   }
 
@@ -245,25 +239,20 @@ html {
   }
 
   .header {
-    height: 150vh;
+    height: 120vh;
   }
 
-  .main-heading {
-    font-size: 15rem;
-    line-height: 130px;
+  .main-heading > span:nth-child(1) {
+    font-size: 8rem;
+    line-height: 120px;
   }
 
-  .main-heading > small {
-    font-size: 4rem;
-  }
-
-  .main-heading > span {
+  .main-heading > span:nth-last-child(1) {
     font-size: 80px;
   }
 
   .description {
     font-size: 2rem;
-    line-height: 45px;
   }
 
   .header > button {
