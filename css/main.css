@@ -83,6 +83,7 @@ h6 {
 .header {
   height: 150vh;
   background-color: #f5f5f5;
+  border-bottom: 1px solid #d3d4d6;
 }
 
 .main-heading > span {
@@ -139,18 +140,12 @@ h6 {
   background-color: #f5f5f5;
 }
 
-.footer > ul > li > a {
-  padding: 10px 15px;
-  background-color: #337ab7;
-  border-radius: 100%;
-}
-
-.footer > ul > li > a > i {
-  font-size: 1.3rem;
+.footer > ul > li > a > img {
+  height: 10vh;
 }
 
 .footer-copyright-text {
-  color: #73ace7;
+  color: #495057;
   font-size: 13px;
   line-height: 23px;
 }
@@ -194,7 +189,7 @@ h6 {
   }
 
   .footer > ul {
-    width: 43%;
+    width: 80%;
   }
 }
 
@@ -245,14 +240,6 @@ h6 {
 
   .footer > ul {
     width: 43%;
-  }
-
-  .footer > ul > li > a {
-    padding: 15px 20px;
-  }
-
-  .footer > ul > li > a > i {
-    font-size: 1.8rem;
   }
 
   .footer-copyright-text {
@@ -309,15 +296,7 @@ h6 {
   }
 
   .footer > ul {
-    width: 43%;
-  }
-
-  .footer > ul > li > a {
-    padding: 20px 27px;
-  }
-
-  .footer > ul > li > a > i {
-    font-size: 1.8rem;
+    width: 60%;
   }
 
   .footer-copyright-text {
