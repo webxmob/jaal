@@ -50,39 +50,6 @@ h6 {
   color: var(--white-color);
 }
 
-.nav-menu-btn > i {
-  font-size: 2.1rem;
-  cursor: pointer;
-}
-
-.nav-menu {
-  position: fixed;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100%;
-  background-color: rgba(0, 0, 0, 0.6);
-  transition: var(--transition);
-}
-
-.nav-menu > ul {
-  height: 60vh;
-}
-
-.nav-menu > ul > li > a {
-  position: relative;
-  font-weight: normal;
-  font-size: 1.6rem;
-  color: var(--white-color);
-  transition: var(--transition);
-}
-
-.nav-menu-active {
-  opacity: 0;
-  visibility: hidden;
-  z-index: -9;
-}
-
 .header {
   height: 150vh;
   color: var(--white-color);
@@ -154,11 +121,7 @@ h6 {
 }
 
 @media (min-width: 768px) {
-  .nav-menu > ul {
-    height: 70vh;
-    padding-top: 20px;
-  }
-
+  
   .header {
     height: 150vh;
   }
@@ -197,9 +160,6 @@ h6 {
 }
 
 @media (min-width: 950px) {
-  .nav-menu {
-    height: 110vh;
-  }
 
   .navbar-brand > img {
     height: 4rem;
@@ -251,14 +211,7 @@ h6 {
 }
 
 @media (min-width: 1100px) {
-  .nav-menu {
-    height: 100vh;
-  }
-
-  .nav-menu > ul > li > a {
-    font-size: 2.2rem;
-  }
-
+  
   .navbar-brand > img {
     height: 4rem;
   }
