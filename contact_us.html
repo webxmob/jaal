@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+
+    <title>Jaal | WebXMob cloud technologies</title>
+    <!-- custom style -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/1ba2cf90f3.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- google font -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!-- title icon -->
+    <link
+      rel="shortcut icon"
+      href="./assests/img/icon.png"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <!-- navbar -->
+    <nav
+      class="navbar d-flex align-items-center justify-content-between fixed-top"
+    >
+      <a class="navbar-brand" href="./index.html">
+        <img
+          src="./assests/img/jaal.png"
+          alt="logo not found"
+          class="img-fluid"
+        />
+      </a>
+      <a class="contact_us_link text-dark" href="./contact_us.html"
+        >CONTACT US</a
+      >
+    </nav>
+    <!-- header -->
+    <main class="form-main d-flex align-items-center justify-content-center">
+      <div
+        class="container d-flex flex-column align-items-center justify-content-center"
+      >
+        <p>We’re tingling to learn about your</p>
+        <h1 class="font-weight-bold">New Project</h1>
+        <form class="row query-topic-checkboxes p-0 m-0" id="form1">
+          <h6 class="col-12 pt-4 pl-3 align-self-start font-weight-bold">
+            How can we help?
+          </h6>
+          <div class="col-12 col-lg-6 pt-3">
+            <input type="checkbox" name="Mobile App Development" />
+            <label for="Mobile App Development">Mobile App Development</label>
+            <br />
+            <input type="checkbox" name="UI/UX" />
+            <label for="UI/UX">UI/UX</label>
+            <br />
+            <input type="checkbox" name="Design Thinking" />
+            <label for="Design Thinking">Design Thinking</label>
+          </div>
+          <div class="col-12 col-lg-6">
+            <input type="checkbox" name="Web App Development" />
+            <label for="Web App Development">Web App Development</label>
+            <br />
+            <input type="checkbox" name="Quality Assurance" />
+            <label for="Quality Assurance">Quality Assurance</label>
+            <br />
+            <input type="checkbox" name="Technical / Digital Consulting" />
+            <label for="Technical / Digital Consulting">
+              Technical/Digital Consulting
+            </label>
+          </div>
+          <div class="col-12 pt-4">
+            <label for="description" class="font-weight-bold h6">
+              Description
+            </label>
+            <br />
+            <textarea
+              name="description"
+              class="w-100 pt-2"
+              placeholder="Enter your project description here"
+              style="border: none; border-bottom: 1px solid black"
+              required
+            ></textarea>
+          </div>
+          <div class="pl-3 pt-5">
+            <span
+              class="proceed-next-form-btn font-weight-bold"
+              onclick="formNextStep()"
+            >
+              <i class="far fa-arrow-alt-circle-right"></i>
+              Next
+            </span>
+          </div>
+        </form>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+      <ul
+        class="container pt-4 d-flex align-items-center justify-content-around"
+      >
+        <li>
+          <a href="https://www.linkedin.com/company/webxmob/">
+            <img src="./assests/img/linkedIn.png" alt="" />
+          </a>
+        </li>
+        <li>
+          <a href="">
+            <img src="./assests/img/upwork.png" alt="" />
+          </a>
+        </li>
+      </ul>
+      <h6
+        class="container footer-copyright-text pt-2 pb-3 pb-xl-4 pt-xl-4 text-center"
+      >
+        Copyright &copy;
+        <!-- got the current year and added it in the copyright text -->
+        <script>
+          document.write(new Date().getFullYear());
+        </script>
+        Jaal IT solutions. All Rights Reserved.
+      </h6>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <script src="./js/main.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
