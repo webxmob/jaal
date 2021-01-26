@@ -60,53 +60,72 @@
       >
         <p>We’re tingling to learn about your</p>
         <h1 class="font-weight-bold">New Project</h1>
-        <form class="row query-topic-checkboxes p-0 m-0" id="form1">
-          <h6 class="col-12 pt-4 pl-3 align-self-start font-weight-bold">
-            How can we help?
-          </h6>
-          <div class="col-12 col-lg-6 pt-3">
-            <input type="checkbox" name="Mobile App Development" />
-            <label for="Mobile App Development">Mobile App Development</label>
-            <br />
-            <input type="checkbox" name="UI/UX" />
-            <label for="UI/UX">UI/UX</label>
-            <br />
-            <input type="checkbox" name="Design Thinking" />
-            <label for="Design Thinking">Design Thinking</label>
-          </div>
-          <div class="col-12 col-lg-6">
-            <input type="checkbox" name="Web App Development" />
-            <label for="Web App Development">Web App Development</label>
-            <br />
-            <input type="checkbox" name="Quality Assurance" />
-            <label for="Quality Assurance">Quality Assurance</label>
-            <br />
-            <input type="checkbox" name="Technical / Digital Consulting" />
-            <label for="Technical / Digital Consulting">
-              Technical/Digital Consulting
-            </label>
-          </div>
-          <div class="col-12 pt-4">
-            <label for="description" class="font-weight-bold h6">
-              Description
-            </label>
-            <br />
-            <textarea
-              name="description"
-              class="w-100 pt-2"
-              placeholder="Enter your project description here"
-              style="border: none; border-bottom: 1px solid black"
-              required
-            ></textarea>
-          </div>
-          <div class="pl-3 pt-5">
-            <span
-              class="proceed-next-form-btn font-weight-bold"
-              onclick="formNextStep()"
-            >
-              <i class="far fa-arrow-alt-circle-right"></i>
-              Next
-            </span>
+        <form id="form">
+          <div class="row p-0 m-0">
+            <h6 class="col-12 pt-4 pl-3 align-self-start font-weight-bold">
+              How can we help?
+            </h6>
+            <div class="col-12 col-lg-6 pt-3">
+              <input
+                type="checkbox"
+                name="Mobile App Development"
+                class="checkbox-input"
+              />
+              <label for="Mobile App Development">Mobile App Development</label>
+              <br />
+              <input type="checkbox" name="UI/UX" class="checkbox-input" />
+              <label for="UI/UX">UI/UX</label>
+              <br />
+              <input
+                type="checkbox"
+                name="Design Thinking"
+                class="checkbox-input"
+              />
+              <label for="Design Thinking">Design Thinking</label>
+            </div>
+            <div class="col-12 col-lg-6">
+              <input
+                type="checkbox"
+                name="Web App Development"
+                class="checkbox-input"
+              />
+              <label for="Web App Development">Web App Development</label>
+              <br />
+              <input
+                type="checkbox"
+                name="Quality Assurance"
+                class="checkbox-input"
+              />
+              <label for="Quality Assurance">Quality Assurance</label>
+              <br />
+              <input
+                type="checkbox"
+                name="Technical / Digital Consulting"
+                class="checkbox-input"
+              />
+              <label for="Technical / Digital Consulting">
+                Technical/Digital Consulting
+              </label>
+            </div>
+            <div class="col-12 pt-4">
+              <label for="description" class="font-weight-bold h6">
+                Description
+              </label>
+              <br />
+              <textarea
+                name="description"
+                class="w-100 pt-2"
+                placeholder="Enter your project description here"
+                style="border: none; border-bottom: 1px solid black"
+                required
+              ></textarea>
+            </div>
+            <div class="pl-3 pt-5">
+              <span class="proceed-next-form-btn font-weight-bold">
+                <i class="far fa-arrow-alt-circle-right"></i>
+                Next
+              </span>
+            </div>
           </div>
         </form>
       </div>
